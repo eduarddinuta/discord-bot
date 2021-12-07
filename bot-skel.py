@@ -1,4 +1,4 @@
-
+#edit for token flag
 #Copyright 2021 Eduard Dinuta
    # This program is free software: you can redistribute it and/or modify
    # it under the terms of the GNU General Public License as published by
