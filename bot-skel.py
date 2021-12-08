@@ -1,4 +1,4 @@
-#edit for token flag
+
 #Copyright 2021 Eduard Dinuta
    # This program is free software: you can redistribute it and/or modify
    # it under the terms of the GNU General Public License as published by
@@ -20,9 +20,14 @@ import code         # code.interact
 import os           # environment variables
 import inspect      # call stack inspection
 import random       # dumb random number generator
-
 from discord.ext import commands    # Bot class and utils
-
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--verbose", help="increase output verbosity",
+                    action="store_true")
+args = parser.parse_args()
+if args.verbose:
+    print("verbosity turned on")
 ################################################################################
 ############################### HELPER FUNCTIONS ###############################
 ################################################################################
